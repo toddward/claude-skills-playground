@@ -37,9 +37,13 @@ Resumes should be **sophisticated yet accessible** - think of them as the inters
 ### Visual Principles
 
 **Typography**:
-- Use 2-3 fonts maximum from `./canvas-fonts` directory
+- Use 2-3 fonts maximum from `./assets/fonts` directory
+- Recommended combinations:
+  - **Professional/Corporate**: Inter (headers & body) - Clean, highly readable, excellent at all sizes
+  - **Creative/Modern**: Special Gothic (headers) + Open Sans (body) - Distinctive yet professional
+  - **Traditional/Academic**: Open Sans throughout - Reliable, approachable, universally compatible
 - Headers: Clean, confident sans-serifs (moderate weight, not ultra-bold)
-- Body: Highly readable serif or sans-serif at 10-11pt
+- Body: Highly readable sans-serif at 10-11pt
 - Hierarchy through size, weight, and spacing - not color chaos
 
 **Layout**:
@@ -129,8 +133,10 @@ Use Python with reportlab or similar library to create the PDF:
 - If 2 pages needed, ensure clean break between pages
 
 **Typography**:
-- Load fonts from `./canvas-fonts` directory
-- Register custom fonts with the PDF library
+- Load fonts from `./assets/fonts` directory
+- Available fonts: Inter (variable font), Open Sans (variable font), Special Gothic, Montserrat, BBH Sans Bogle
+- Register custom fonts with the PDF library using absolute paths
+- Use variable fonts (Inter, Open Sans) for flexible weight options
 - Set consistent font sizes and line heights
 
 **Layout Implementation**:
