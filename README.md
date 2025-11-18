@@ -48,11 +48,25 @@ Generate beautiful, professionally designed resumes as 1-2 page PDFs.
 
 **Use when:** Creating professional resumes, tailoring applications to specific job postings, or generating matching cover letters.
 
+### 📊 Quarterly Connection Assistant (`quarterly-connect`)
+Strategic AI partner that guides employees through comprehensive quarterly performance reflections aligned with company values.
+
+**Key Features:**
+- Automatic company core values research via web search
+- Structured 6-phase reflection process (wins, strengths, challenges, focus, career, feedback)
+- Evidence-based, outcome-focused narrative building
+- External success factor weighting (client impact, certifications, external learning)
+- Executive-ready quarterly connection reports
+- Quarter-aware date filtering (Q1-Q4)
+- Iterative refinement through Socratic questioning
+
+**Use when:** Preparing quarterly performance reviews, career development planning, manager 1:1 preparation, or tracking professional growth aligned with company values.
+
 ## Installation
 
 To use these skills with Claude Code:
 
-1. **Navigate to the skill directory** you want to install (e.g., `family-menu/`, `brainstorm-it/`, or `resume-builder/`)
+1. **Navigate to the skill directory** you want to install (e.g., `family-menu/`, `brainstorm-it/`, `resume-builder/`, or `quarterly-connect/`)
 
 2. **Create a zip file** of the entire directory contents:
    ```bash
@@ -68,6 +82,7 @@ To use these skills with Claude Code:
    cd family-menu && zip -r ../family-menu.zip . && cd ..
    cd brainstorm-it && zip -r ../brainstorm-it.zip . && cd ..
    cd resume-builder && zip -r ../resume-builder.zip . && cd ..
+   cd quarterly-connect && zip -r ../quarterly-connect.zip . && cd ..
    ```
 
 3. **Upload to Claude Code:**
@@ -127,8 +142,9 @@ Skills may have different dependencies:
 - **Family Menu Generator**: Requires Python with `reportlab` library
 - **Brainstorm-it**: No external dependencies
 - **Resume Builder**: Requires Python with PDF generation libraries (e.g., `reportlab`)
+- **Quarterly Connection Assistant**: No external dependencies (uses built-in web search)
 
-Check each skill's `SKILL.md` for specific requirements.
+Check each skill's `SKILL.md` or `README.md` for specific requirements.
 
 ## Contributing
 
