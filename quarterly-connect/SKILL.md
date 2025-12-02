@@ -1,3 +1,8 @@
+---
+name: quarterly-connect
+description: Assist users in creating quarterly connects that act as a strategic partner to guide employees through comprehensive quarterly reflections, helping craft insightful narratives for Quarterly Connection reviews that align with company values and career development goals.
+
+---
 # Quarterly Connection Assistant
 
 A strategic partner to guide employees through comprehensive quarterly reflections, helping craft insightful narratives for Quarterly Connection reviews that align with company values and career development goals.
